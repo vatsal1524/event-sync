@@ -1,0 +1,86 @@
+/* Author: Dhruvin Dankhara */
+.edit-event-container {
+  padding: 20px;
+  width: auto;
+}
+
+/* .row {
+  margin-bottom: 20px;
+} */
+
+/* .col-md-6 {
+    display: flex;
+    align-items: center;
+  } */
+
+.event-image {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.upload-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.upload-image label {
+  cursor: pointer;
+  background-color: #6c757d;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.upload-image label:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.upload-image input[type="file"] {
+  display: none;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.upload-image label:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.upload-image input[type="file"] {
+  display: none;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-secondary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,229 @@
+.container {
+  margin: 20px;
+}
+
+.search-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  width: 40%;
+  margin-right: 10px;
+}
+
+.search-button {
+  background-color: #ffd700;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #eabb00;
+}
+
+.search-icon {
+  margin: 0 8px;
+  padding: 4px;
+  font-size: 24px;
+}
+
+.sort-by-group,
+.dropdown-group {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.sort-by-group label,
+.dropdown-group label {
+  margin-right: 8px;
+}
+
+.sort-by-group select,
+.dropdown-group select {
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.inline-dropdown-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.inline-dropdown {
+  flex-basis: calc(33.33% - 20px);
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.col-margin {
+  margin-bottom: 10px;
+}
+
+.filter-button-container {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  margin-left: 10px;
+  background-color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.filter-button:hover {
+  background-color: #555;
+}
+
+.filter-icon {
+  margin-right: 8px;
+}
+
+.sort-by-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row-border {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+}
+
+.inline-dropdown-group {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+@media (max-width: 870px) {
+  .inline-dropdown-group {
+    flex-direction: column;
+  }
+}
+
+.location-icon,
+.clock-icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* .event-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+} */
+
+.card-image,
+.card-content {
+  margin: 5px;
+}
+
+.ticket-price {
+  border: 2px solid #000;
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-location {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.card-ticket {
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.event-title {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.event-date-time {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.event-time {
+  margin-left: 10px;
+}
+
+.event-date {
+  margin-top: 5px;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.join-button,
+.view-details-button {
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.join-button:hover,
+.view-details-button:hover {
+  background-color: #bfb202;
+}

@@ -1,0 +1,64 @@
+/* author: Faizal */
+#header .nav-link {
+  color: #ffd700 !important;
+}
+
+#header .nav-link:hover {
+  color: #8bb9fe !important;
+}
+
+li {
+  cursor: pointer;
+}
+
+/* author: Mehulkumar Bhunsadiya */
+.user-profile{
+  height: 1.5rem;
+}
+
+#header .profile-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: -4rem;
+  padding: 1rem !important;
+  z-index: 1000;
+  display: block;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #ffd700;
+  text-align: left;
+  background-color: black;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+  .dropdown-item {
+    color: #ffffff !important;
+  }
+
+  .dropdown-item:hover {
+    color: #ffd700 !important;
+  }
+}
+
+.EventDropdown {
+  .dropdown-title {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #ffd700 !important;
+  }
+
+  .dropdown-title:hover {
+    color: #8bb9fe !important;
+  }
+
+  .dropdown-item {
+    color: #ffffff !important;
+  }
+
+  .dropdown-item:hover {
+    color: #ffd700 !important;
+  }
+}

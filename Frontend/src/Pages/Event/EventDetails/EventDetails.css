@@ -1,0 +1,107 @@
+/* Author: Dhruvin Dankhara */
+
+.event-details-container {
+  padding: 20px;
+  /* max-height: 70vh; */
+  overflow-y: auto;
+}
+
+.event-image {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.event-details {
+  margin-top: 20px;
+}
+
+.event-details h2 {
+  margin-bottom: 10px;
+}
+
+.comments-section {
+  margin-top: 30px;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  resize: vertical;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.comment-form button {
+  margin-top: 10px;
+}
+
+.comment-rating-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-submit-btn {
+  width: fit-content;
+  float: right;
+}
+
+.comment_list_user {
+  font-size: 15px !important;
+  color: #909090;
+}
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Centers items horizontally */
+  justify-content: space-between;
+}
+
+.horizontal-items {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: fit-content;
+}
+
+.comment-card {
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  /* width: 300px; */
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.comment-user {
+  font-weight: bold;
+}
+
+.comment-date {
+  color: #666;
+}
+
+.comment-text {
+  font-size: 14px;
+  line-height: 1.5;
+}

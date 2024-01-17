@@ -1,0 +1,11 @@
+/* author: Faizal */
+.card {
+  -webkit-transition: all 100ms ease-in-out !important;
+  transition: all 100ms ease-in-out !important;
+}
+
+.card:hover {
+  transform: scale(1.04) !important;
+  -webkit-box-shadow: 0 10px 70px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 10px 70px rgba(0, 0, 0, 0.05) !important;
+}

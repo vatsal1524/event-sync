@@ -1,0 +1,61 @@
+/* Author: Dhruvin Dankhara */
+
+.event-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* max-height: 20vh;x */
+}
+
+.max-height {
+  max-height: 30vh;
+  overflow-y: auto;
+}
+
+.event-card {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.event-card-image img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.event-card-details {
+  flex: 1;
+}
+
+.event-card-details h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.event-card-details p {
+  margin: 5px 0;
+}
+
+.event-card-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.event-card-buttons button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #6c757d;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.event-card-buttons button:hover {
+  background-color: black;
+}

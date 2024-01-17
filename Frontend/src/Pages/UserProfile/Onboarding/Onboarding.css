@@ -1,0 +1,30 @@
+/* author: Mehulkumar Bhunsadiya */
+.onboarding {
+    .header-text {
+        color: #ffd700 !important;
+        text-align: center;
+    }
+    .save-secondary {
+        background-color: #ffd700 !important;
+        border-color: #000 !important;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.2rem;
+        font-weight: bold !important;
+        text-decoration: none !important;
+        color: #000 !important;
+        cursor: pointer;
+        border-radius: 1rem;
+      }
+    
+      .save-secondary:hover {
+        background-color: #000 !important;
+        border-color: #000 !important;
+        color: #ffd700 !important;
+      }
+
+      .interest-image {
+        height: 25vh !important;
+        width: auto;
+        object-fit: cover;
+      }
+}

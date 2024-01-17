@@ -1,0 +1,59 @@
+.dashboard-container {
+    .event-card {
+      margin-right: 1rem;
+      width: 20vw !important;
+      max-width: 25vw !important;
+      height: 25vh;
+      overflow-y: auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+  
+    .event-image {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 5px 0 0 5px;
+    }
+  
+    .event-details {
+      padding: 10px;
+    }
+
+  .scrollable-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 3px;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+
+  .show-more-btn {
+    background-color: #ffd700 !important;
+    border-color: #000 !important;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    color: #000 !important;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+
+  .show-more-btn:hover {
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #ffd700 !important;
+  }
+  }
+  
+  
